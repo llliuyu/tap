@@ -1,0 +1,21 @@
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
+
+.list-group-item:isActive {
+  background: #e8e8e8;
+}
+
+.media-left {
+  display: table-cell;
+  vertical-align: top;
+  padding-right: 10px;
+}
+.media-right {
+  display: table-cell;
+  vertical-align: top;
+}
