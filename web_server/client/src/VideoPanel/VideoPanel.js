@@ -3,6 +3,7 @@ import axios from 'axios';
 import VideoDetail from '../VideoDetail/VideoDetail';
 import VideoList from '../VideoList/VideoList';
 import SearchBar from '../SearchBar/SearchBar';
+import Auth from '../Auth/Auth';
 import './VideoPanel.css';
 
 
@@ -30,13 +31,36 @@ class VideoPanel extends React.Component {
         };
         var url = new URL(API_URL);
         Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
-
+        
         axios.get(url).then(
             res => {
                 this.setState({videos: res.data.items});
             }
         )
     }
+
+    loadPreference = () => {
+        let url = 'http://' + window.location.hostname + ':3000' + '/preference/userId/' + Auth.getEmail();
+    
+        let request = new Request(encodeURI(url), {
+          method: 'GET',
+          headers: {
+            'Authorization': 'bearer ' + Auth.getToken(),
+          },
+          cache: 'no-cache'
+        });
+    
+        fetch(request)
+          .then((res) => res.json())
+          .then((term) => {
+            this.setState({
+                term: term
+            }, ()=>{
+                this.loadVideoLists();
+                this.loadVideo();
+            });
+          });
+        }
 
     loadVideo = () => {
         const params = {
@@ -52,9 +76,7 @@ class VideoPanel extends React.Component {
 
         axios.get(url).then(
             res => {
-                console.log(res.data.items[0].id.videoId);
-                this.setState({video: res.data.items[0]});
-                
+                this.setState({video: res.data.items[0]});              
             }
         )
     }
@@ -84,8 +106,12 @@ class VideoPanel extends React.Component {
     }
 
     componentDidMount() {
-        this.loadVideoLists();
-        this.loadVideo();
+        if(this.state.term) {
+            this.loadVideoLists();
+            this.loadVideo();
+        } else {
+            this.loadPreference();
+        } 
     }
 
     render() {

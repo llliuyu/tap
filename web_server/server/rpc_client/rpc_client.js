@@ -39,9 +39,18 @@ function getSearchNewsSummariesForUser(user_id, page_num, search_key, callback){
     });
   }
 
+function getPreference(user_id, callback) {
+    client.request('getPreference', [user_id], function(err, error, response){
+        if(err) throw err;
+        //console.log(response);
+        callback(response);
+      });
+}
+
 module.exports = {
     add : add,
     getNewsSummariesForUser: getNewsSummariesForUser,
     logNewsClickForUser: logNewsClickForUser,
-    getSearchNewsSummariesForUser: getSearchNewsSummariesForUser
+    getSearchNewsSummariesForUser: getSearchNewsSummariesForUser,
+    getPreference: getPreference
 };

@@ -61,7 +61,26 @@ def handle_message(msg):
    
     # classify news
     description = task['description']
-    if description is not None:
+    # if description is not None:
+    #     topic = news_topic_modeling_service_client.classify(description)
+    #     task['class'] = topic
+    source = task['source']
+
+    if source == 'bbc-sport' or source == 'espn' or source == 'fox-sports' or source == 'talksport':
+        task['class'] = 'Sports'
+    elif source == 'entertainment-weekly' or source == 'mtv-news' or source == 'polygon':
+        task['class'] = 'Entertainment'
+    elif source == 'techcrunch' or source == 't3n' or source == 'recode' or source == 'techradar' or source == 'new-scientist' or source == 'engadget' or source == 'crypto-coins-news':
+        task['class'] = 'Technology'
+    elif source == 'the-lad-bible':
+        task['class'] = 'Religion'
+    elif source == 'the-wall-street-journal' or source == 'the-economist':
+        task['class'] = 'Economic & Corp'
+    elif source == 'new-york-magazine' or source == 'time' or source == 'fortune':
+        task['class'] = 'Magazine'
+    elif source == 'ign':
+        task['class'] = 'Media'
+    elif description is not None:
         topic = news_topic_modeling_service_client.classify(description)
         task['class'] = topic
 

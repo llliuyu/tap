@@ -89,6 +89,8 @@ class NewsPanel extends React.Component {
       });
   }
 
+  
+
   searchNews = (keyword) => {
     let url = "";
     if(keyword === this.state.keyword){

@@ -24,8 +24,6 @@ cloudAMQP_client = CloudAMQPClient(config['news_monitor']['SCRAPE_NEWS_TASK_QUEU
                                    config['news_monitor']['SCRAPE_NEWS_TASK_QUEUE_NAME'])
 
 while True:
-    print 'running'
-    print news_api_client
     news_list = news_api_client.getNewsFromSource(config['news_monitor']['NEWS_SOURCES'])
 
     num_of_news_news = 0

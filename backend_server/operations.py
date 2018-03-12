@@ -93,7 +93,14 @@ def getNewsSummariesForUser(user_id, page_num, user_ip):
     
     return sorded(preference.items(), key=lambda item:item[1],reverse)'''
 
-
+def getPreference(user_id):
+    print 'getPreference'
+    preference = news_recommendation_service_client.getPreferenceForUser(user_id)
+    topPreference = ''
+    if preference is not None and len(preference) > 0:
+        global topPreference
+        topPreference = preference[0]
+    return topPreference
 
 def logNewsClickForUser(user_id, news_id, user_ip):
     message = {'userId': user_id, 'newsId': news_id, 'timestamp': datetime.utcnow()}

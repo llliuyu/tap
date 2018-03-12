@@ -42,6 +42,11 @@ class RequestHandler(pyjsonrpc.HttpRequestHandler):
     def getSearchNewsSummariesForUser(self, user_id, page_num, search_key):
         return operations.getSearchNewsSummariesForUser(user_id, page_num, search_key)
     
+    @pyjsonrpc.rpcmethod
+    def getPreference(self, user_id):
+        print 'getpreference'
+        return operations.getPreference(user_id)
+    
     """ Log user news clicks """
     @pyjsonrpc.rpcmethod
     def logNewsClickForUser(self, user_id, news_id, user_ip):
