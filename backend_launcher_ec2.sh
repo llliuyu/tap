@@ -1,9 +1,9 @@
 #! /bin/bash
-fuser -k 4040/tcp
-fuser -k 5050/tcp
-fuser -k 6060/tcp
+# fuser -k 4040/tcp
+# fuser -k 5050/tcp
+# fuser -k 6060/tcp
 
-service redis_6379 start
+# service redis_6379 start
 #pip install -r requirements.txt
 cd ./backend_server
 python2 service.py &
@@ -16,7 +16,7 @@ python2 recommendation_service.py
 echo“====================================”
 read -p "PRESS [ENTER] TO TERMINATE PROCESSES" PRESSKEY
 
-fuser -k 4040/tcp
-fuser -k 5050/tcp
-fuser -k 6060/tcp
-service redis_6379 stop
+sudo fuser -k 4040/tcp
+sudo fuser -k 5050/tcp
+sudo fuser -k 6060/tcp
+sudo service redis_6379 stop
