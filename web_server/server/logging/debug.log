@@ -580,3 +580,12 @@
 2018-03-12T19:12:08.828Z - info: Logging news click from xxx@qq.com
 2018-03-12T19:47:45.527Z - info: auth_checker: req: [object Object]
 2018-03-12T19:47:56.757Z - info: ::1
+2018-03-12T21:56:45.891Z - info: auth_checker: req: [object Object]
+2018-03-12T21:56:46.021Z - info: ::1
+2018-03-12T21:56:50.548Z - info: auth_checker: req: [object Object]
+2018-03-12T21:56:50.633Z - info: ::1
+2018-03-12T21:56:53.034Z - info: auth_checker: req: [object Object]
+2018-03-12T21:56:53.306Z - info: ::1
+2018-03-12T21:56:53.630Z - info: auth_checker: req: [object Object]
+2018-03-12T21:56:53.838Z - info: ::1
+2018-03-12T21:56:54.699Z - info: auth_checker: req: [object Object]
