@@ -1,5 +1,4 @@
-! /bin/bash
-fuser -k 3000/tcp
+#! /bin/bash
 fuser -k 4040/tcp
 fuser -k 5050/tcp
 fuser -k 6060/tcp
@@ -17,7 +16,6 @@ python2 recommendation_service.py
 echo“====================================”
 read -p "PRESS [ENTER] TO TERMINATE PROCESSES" PRESSKEY
 
-fuser -k 3000/tcp
 fuser -k 4040/tcp
 fuser -k 5050/tcp
 fuser -k 6060/tcp
