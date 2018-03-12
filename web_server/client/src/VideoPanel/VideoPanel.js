@@ -106,12 +106,9 @@ class VideoPanel extends React.Component {
     }
 
     componentDidMount() {
-        if(this.state.term) {
-            this.loadVideoLists();
-            this.loadVideo();
-        } else {
-            this.loadPreference();
-        } 
+    
+        this.loadPreference();
+
     }
 
     render() {
