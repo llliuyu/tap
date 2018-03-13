@@ -8,7 +8,6 @@ const VideoDetail = ({activeVideo}) => {
           No results found. Try different keywords.
       </div>
   } else {
-      console.log(activeVideo);
     const YTUrl = `https:www.youtube.com/embed/${activeVideo.id ? activeVideo.id.videoId : 'JGwWNGJdvx8'}`;
     return (
         <div className="video-detail">
