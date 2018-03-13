@@ -20,7 +20,14 @@ const routes = {
     },
     {
       path: '/videos', 
-      component: Auth.isUserAuthenticated() ? VideoPanel : LoginPage
+      //component: Auth.isUserAuthenticated() ? VideoPanel : LoginPage
+      getComponent: (location, callback) => {
+        if (Auth.isUserAuthenticated()) {
+          callback(null, VideoPanel);
+        } else {
+          callback(null, LoginPage);
+        }
+      }
     },
 
     {

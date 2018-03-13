@@ -22,13 +22,13 @@ class NewsPanel extends React.Component {
                     open: false, 
                     keyword:""};
     this.handleScroll = this.handleScroll.bind(this);
-    console.log('1');
+    // console.log('1');
   }
-  componentWillMount(){
-    console.log('2');
-  }
+  // componentWillMount(){
+  //   console.log('2');
+  // }
   componentDidMount() {
-    console.log('5');
+    //console.log('5');
     this.loadMoreNews();
     this.loadMoreNews = _.debounce(this.loadMoreNews, 500);
     this.searchNews = _.debounce(this.searchNews, 500);
@@ -36,7 +36,7 @@ class NewsPanel extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    console.log('4');
+    //console.log('4');
   }
 
   handleScroll() {
@@ -44,12 +44,12 @@ class NewsPanel extends React.Component {
                   window.pageYOffset ||
                   document.documentElement.scrollTop;
     if ((window.innerHeight + scrollY) >= (document.body.offsetHeight - 500)) {
-      console.log('Loading more news');
+      //console.log('Loading more news');
       this.setState({
         loading:true
       })
       if(this.state.keyword) {
-        console.log(this.state.keyword);
+        //console.log(this.state.keyword);
         this.searchNews(this.state.keyword);
       } else {
         this.loadMoreNews();
@@ -58,7 +58,7 @@ class NewsPanel extends React.Component {
   }
 
   loadMoreNews() {
-    console.log('6');
+    //console.log('6');
     if (this.state.loadedAll === true) {
       return;
     }
@@ -121,7 +121,7 @@ class NewsPanel extends React.Component {
         if (!news || news.length === 0) {
           this.setState({loadedAll: true});
         }
-        console.log(news);
+        //console.log(news);
         this.setState({
           news: this.state.searchPageNum === 1 ? news : (this.state.news ? this.state.news.concat(news) : news),
           searchPageNum: this.state.searchPageNum + 1,
@@ -176,7 +176,7 @@ class NewsPanel extends React.Component {
 	};
 
   render() {
-    console.log('3');
+    //console.log('3');
     if (this.state.news) {
       return(
         
@@ -209,7 +209,6 @@ class NewsPanel extends React.Component {
       return(
         <div>
           <div id='msg-app-loading'>
-          {console.log('4')}
             Loading...
           </div>
         </div>

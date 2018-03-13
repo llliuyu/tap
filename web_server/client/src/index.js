@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 import registerServiceWorker from './registerServiceWorker';
 import './index.css'
 
-import { browserHistory, Router} from 'react-router';
+import { hashHistory, browserHistory, Router} from 'react-router';
 import routes from './routes';
 
 ReactDOM.render(

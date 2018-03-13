@@ -9,8 +9,8 @@ const Base = ({ children }) => (
     <nav className="nav-bar indigo lighten-1">
       <div className="nav-wrapper">
         <ul>
-          <li><a href="/" >  Tap News</a></li>
-          <li><a href="/videos" >  Tap Videos</a></li>
+          <li><Link to="/" >  Tap News</Link></li>
+          <li><Link to="/videos" >  Tap Videos</Link></li>
         </ul>
           
         <ul id="nav-mobile" className="right">

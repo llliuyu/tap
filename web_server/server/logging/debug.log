@@ -589,3 +589,212 @@
 2018-03-12T21:56:53.630Z - info: auth_checker: req: [object Object]
 2018-03-12T21:56:53.838Z - info: ::1
 2018-03-12T21:56:54.699Z - info: auth_checker: req: [object Object]
+2018-03-12T22:11:18.494Z - info: auth_checker: req: [object Object]
+2018-03-12T22:14:59.211Z - info: auth_checker: req: [object Object]
+2018-03-12T22:14:59.407Z - info: ::1
+2018-03-12T22:15:27.481Z - info: auth_checker: req: [object Object]
+2018-03-12T22:15:27.553Z - info: ::1
+2018-03-12T22:15:34.712Z - info: auth_checker: req: [object Object]
+2018-03-12T22:15:34.796Z - info: ::1
+2018-03-12T22:15:39.798Z - info: auth_checker: req: [object Object]
+2018-03-12T22:15:39.870Z - info: ::1
+2018-03-12T22:17:18.126Z - info: auth_checker: req: [object Object]
+2018-03-12T22:17:18.221Z - info: ::1
+2018-03-12T22:17:32.821Z - info: auth_checker: req: [object Object]
+2018-03-12T22:17:32.928Z - info: ::1
+2018-03-12T22:20:41.156Z - info: auth_checker: req: [object Object]
+2018-03-12T22:20:41.234Z - info: ::1
+2018-03-12T22:25:00.042Z - info: auth_checker: req: [object Object]
+2018-03-12T22:25:00.122Z - info: ::1
+2018-03-12T22:30:35.110Z - info: auth_checker: req: [object Object]
+2018-03-12T22:30:35.183Z - info: ::1
+2018-03-12T22:30:39.238Z - info: auth_checker: req: [object Object]
+2018-03-12T22:30:39.310Z - info: ::1
+2018-03-12T22:35:01.871Z - info: auth_checker: req: [object Object]
+2018-03-12T22:35:01.964Z - info: ::1
+2018-03-12T22:36:08.901Z - info: auth_checker: req: [object Object]
+2018-03-12T22:36:08.993Z - info: ::1
+2018-03-12T22:36:15.076Z - info: auth_checker: req: [object Object]
+2018-03-12T22:36:15.151Z - info: ::1
+2018-03-12T22:37:41.068Z - info: auth_checker: req: [object Object]
+2018-03-12T22:37:41.194Z - info: ::1
+2018-03-12T22:37:45.622Z - info: auth_checker: req: [object Object]
+2018-03-12T22:37:45.706Z - info: ::1
+2018-03-12T22:38:53.378Z - info: auth_checker: req: [object Object]
+2018-03-12T22:38:53.458Z - info: ::1
+2018-03-12T22:39:21.957Z - info: auth_checker: req: [object Object]
+2018-03-12T22:39:22.110Z - info: 
+2018-03-12T22:39:56.288Z - info: auth_checker: req: [object Object]
+2018-03-12T22:39:56.522Z - info: ::1
+2018-03-12T22:42:20.008Z - info: auth_checker: req: [object Object]
+2018-03-12T22:42:20.082Z - info: ::1
+2018-03-12T22:42:41.486Z - info: auth_checker: req: [object Object]
+2018-03-12T22:42:41.556Z - info: ::1
+2018-03-12T22:42:44.504Z - info: auth_checker: req: [object Object]
+2018-03-12T22:42:44.575Z - info: ::1
+2018-03-12T22:42:47.552Z - info: auth_checker: req: [object Object]
+2018-03-12T22:42:47.635Z - info: ::1
+2018-03-12T22:42:49.861Z - info: auth_checker: req: [object Object]
+2018-03-12T22:42:49.940Z - info: ::1
+2018-03-12T22:42:55.096Z - info: auth_checker: req: [object Object]
+2018-03-12T22:42:55.168Z - info: ::1
+2018-03-12T22:43:43.673Z - info:  email=qq@qq.com, password=12345678
+2018-03-12T22:43:46.705Z - info: auth_checker: req: [object Object]
+2018-03-12T22:43:46.776Z - info: ::1
+2018-03-12T22:44:07.424Z - info: auth_checker: req: [object Object]
+2018-03-12T22:44:07.675Z - info: ::1
+2018-03-12T22:44:19.629Z - info: auth_checker: req: [object Object]
+2018-03-12T22:44:19.703Z - info: ::1
+2018-03-12T22:44:30.800Z - info: auth_checker: req: [object Object]
+2018-03-12T22:44:30.868Z - info: ::1
+2018-03-12T22:44:55.319Z - info: auth_checker: req: [object Object]
+2018-03-12T22:44:55.399Z - info: ::1
+2018-03-12T22:44:57.285Z - info: auth_checker: req: [object Object]
+2018-03-12T22:44:57.355Z - info: ::1
+2018-03-12T22:45:01.649Z - info: auth_checker: req: [object Object]
+2018-03-12T22:45:01.718Z - info: ::1
+2018-03-12T22:46:35.838Z - info: auth_checker: req: [object Object]
+2018-03-12T22:46:37.298Z - info: ::1
+2018-03-12T22:46:45.102Z - info: auth_checker: req: [object Object]
+2018-03-12T22:46:45.207Z - info: ::1
+2018-03-12T22:47:49.882Z - info: auth_checker: req: [object Object]
+2018-03-12T22:47:49.952Z - info: ::1
+2018-03-12T22:50:48.741Z - info: auth_checker: req: [object Object]
+2018-03-12T22:50:48.826Z - info: ::1
+2018-03-12T22:50:56.730Z - info: auth_checker: req: [object Object]
+2018-03-12T22:50:56.987Z - info: ::1
+2018-03-12T22:51:04.239Z - info: auth_checker: req: [object Object]
+2018-03-12T22:51:04.325Z - info: ::1
+2018-03-12T22:51:56.001Z - info: auth_checker: req: [object Object]
+2018-03-12T22:51:56.101Z - info: ::1
+2018-03-12T22:51:59.307Z - info: auth_checker: req: [object Object]
+2018-03-12T22:51:59.442Z - info: ::1
+2018-03-12T22:54:14.161Z - info: auth_checker: req: [object Object]
+2018-03-12T22:54:14.340Z - info: ::1
+2018-03-12T22:54:26.358Z - info: auth_checker: req: [object Object]
+2018-03-12T22:54:26.456Z - info: ::1
+2018-03-12T23:02:45.492Z - info: auth_checker: req: [object Object]
+2018-03-12T23:02:45.564Z - info: ::1
+2018-03-12T23:02:56.860Z - info: auth_checker: req: [object Object]
+2018-03-12T23:02:56.929Z - info: ::1
+2018-03-12T23:12:35.476Z - info: auth_checker: req: [object Object]
+2018-03-12T23:12:35.548Z - info: ::1
+2018-03-12T23:12:45.433Z - info: auth_checker: req: [object Object]
+2018-03-12T23:12:45.541Z - info: ::1
+2018-03-12T23:12:47.115Z - info: auth_checker: req: [object Object]
+2018-03-12T23:12:47.189Z - info: ::1
+2018-03-12T23:12:48.067Z - info: auth_checker: req: [object Object]
+2018-03-12T23:12:48.136Z - info: ::1
+2018-03-12T23:13:29.403Z - info: auth_checker: req: [object Object]
+2018-03-12T23:13:29.476Z - info: ::1
+2018-03-12T23:22:39.893Z - info: auth_checker: req: [object Object]
+2018-03-12T23:22:39.969Z - info: ::1
+2018-03-12T23:22:42.862Z - info: auth_checker: req: [object Object]
+2018-03-12T23:22:42.950Z - info: Logging news click from qq@qq.com
+2018-03-12T23:25:18.189Z - info: auth_checker: req: [object Object]
+2018-03-12T23:25:18.318Z - info: ::1
+2018-03-12T23:25:39.450Z - info:  email=qq@qq.com, password=12345678
+2018-03-12T23:25:39.662Z - info: auth_checker: req: [object Object]
+2018-03-12T23:25:39.735Z - info: ::ffff:127.0.0.1
+2018-03-12T23:26:32.645Z - info: auth_checker: req: [object Object]
+2018-03-12T23:26:32.861Z - info: ::ffff:127.0.0.1
+2018-03-12T23:29:21.805Z - info: auth_checker: req: [object Object]
+2018-03-12T23:29:21.877Z - info: ::1
+2018-03-12T23:29:27.464Z - info: auth_checker: req: [object Object]
+2018-03-12T23:29:28.064Z - info: ::1
+2018-03-12T23:29:30.793Z - info: auth_checker: req: [object Object]
+2018-03-12T23:29:30.872Z - info: ::1
+2018-03-12T23:29:35.456Z - info: auth_checker: req: [object Object]
+2018-03-12T23:29:35.527Z - info: ::1
+2018-03-12T23:29:37.414Z - info: auth_checker: req: [object Object]
+2018-03-12T23:29:37.493Z - info: ::1
+2018-03-12T23:29:40.171Z - info: auth_checker: req: [object Object]
+2018-03-12T23:29:40.251Z - info: ::1
+2018-03-12T23:42:04.635Z - info: auth_checker: req: [object Object]
+2018-03-12T23:42:04.706Z - info: ::1
+2018-03-12T23:43:13.849Z - info: auth_checker: req: [object Object]
+2018-03-12T23:43:13.922Z - info: ::1
+2018-03-12T23:44:14.404Z - info: auth_checker: req: [object Object]
+2018-03-12T23:44:14.477Z - info: ::1
+2018-03-12T23:44:45.364Z - info: auth_checker: req: [object Object]
+2018-03-12T23:44:45.611Z - info: ::1
+2018-03-13T00:03:07.132Z - info: auth_checker: req: [object Object]
+2018-03-13T00:03:07.234Z - info: ::1
+2018-03-13T00:05:12.490Z - info: auth_checker: req: [object Object]
+2018-03-13T00:05:12.636Z - info: ::1
+2018-03-13T00:05:21.530Z - info: auth_checker: req: [object Object]
+2018-03-13T00:05:21.654Z - info: ::1
+2018-03-13T00:05:28.850Z - info: auth_checker: req: [object Object]
+2018-03-13T00:05:29.586Z - info: ::1
+2018-03-13T00:05:41.898Z - info: auth_checker: req: [object Object]
+2018-03-13T00:05:41.970Z - info: ::1
+2018-03-13T00:05:44.881Z - info: auth_checker: req: [object Object]
+2018-03-13T00:05:44.995Z - info: ::1
+2018-03-13T00:16:53.400Z - info: auth_checker: req: [object Object]
+2018-03-13T00:16:53.500Z - info: ::1
+2018-03-13T00:16:56.615Z - info: auth_checker: req: [object Object]
+2018-03-13T00:16:57.147Z - info: ::1
+2018-03-13T00:16:57.469Z - info: auth_checker: req: [object Object]
+2018-03-13T00:16:57.557Z - info: ::1
+2018-03-13T00:17:11.534Z - info: auth_checker: req: [object Object]
+2018-03-13T00:17:11.621Z - info: ::1
+2018-03-13T00:19:14.864Z - info: auth_checker: req: [object Object]
+2018-03-13T00:19:15.019Z - info: ::1
+2018-03-13T00:19:21.825Z - info: auth_checker: req: [object Object]
+2018-03-13T00:19:21.895Z - info: ::1
+2018-03-13T00:51:47.987Z - info: auth_checker: req: [object Object]
+2018-03-13T00:51:48.092Z - info: ::1
+2018-03-13T00:51:54.314Z - info: auth_checker: req: [object Object]
+2018-03-13T00:51:54.429Z - info: ::1
+2018-03-13T04:01:22.374Z - info: auth_checker: req: [object Object]
+2018-03-13T04:01:22.485Z - info: ::1
+2018-03-13T04:01:40.440Z - info: auth_checker: req: [object Object]
+2018-03-13T04:01:40.535Z - info: ::1
+2018-03-13T04:03:34.806Z - info: auth_checker: req: [object Object]
+2018-03-13T04:03:34.902Z - info: ::1
+2018-03-13T04:03:44.208Z - info: auth_checker: req: [object Object]
+2018-03-13T04:03:44.300Z - info: ::1
+2018-03-13T04:04:06.846Z - info: auth_checker: req: [object Object]
+2018-03-13T04:04:06.941Z - info: ::1
+2018-03-13T04:04:52.563Z - info: auth_checker: req: [object Object]
+2018-03-13T04:04:52.662Z - info: ::1
+2018-03-13T04:07:24.162Z - info: auth_checker: req: [object Object]
+2018-03-13T04:07:24.252Z - info: ::1
+2018-03-13T04:07:52.334Z - info: auth_checker: req: [object Object]
+2018-03-13T04:07:52.428Z - info: ::1
+2018-03-13T04:07:57.542Z - info: auth_checker: req: [object Object]
+2018-03-13T04:07:57.653Z - info: ::1
+2018-03-13T04:08:01.745Z - info: auth_checker: req: [object Object]
+2018-03-13T04:08:01.838Z - info: ::1
+2018-03-13T04:15:13.487Z - info: auth_checker: req: [object Object]
+2018-03-13T04:15:13.587Z - info: ::1
+2018-03-13T04:15:18.340Z - info: auth_checker: req: [object Object]
+2018-03-13T04:15:18.436Z - info: ::1
+2018-03-13T04:16:29.607Z - info: auth_checker: req: [object Object]
+2018-03-13T04:16:29.700Z - info: ::1
+2018-03-13T04:16:34.135Z - info: auth_checker: req: [object Object]
+2018-03-13T04:16:34.228Z - info: ::1
+2018-03-13T04:17:43.914Z - info: auth_checker: req: [object Object]
+2018-03-13T04:17:44.007Z - info: ::1
+2018-03-13T04:17:49.235Z - info: auth_checker: req: [object Object]
+2018-03-13T04:17:49.327Z - info: ::1
+2018-03-13T04:17:51.983Z - info: auth_checker: req: [object Object]
+2018-03-13T04:17:52.078Z - info: ::1
+2018-03-13T04:18:06.588Z - info: auth_checker: req: [object Object]
+2018-03-13T04:18:06.692Z - info: ::1
+2018-03-13T04:18:06.728Z - info: auth_checker: req: [object Object]
+2018-03-13T04:18:06.821Z - info: ::1
+2018-03-13T04:18:06.865Z - info: auth_checker: req: [object Object]
+2018-03-13T04:18:06.975Z - info: ::1
+2018-03-13T04:18:09.239Z - info: auth_checker: req: [object Object]
+2018-03-13T04:18:09.246Z - info: auth_checker: req: [object Object]
+2018-03-13T04:18:09.329Z - info: ::1
+2018-03-13T04:18:09.355Z - info: auth_checker: req: [object Object]
+2018-03-13T04:18:09.369Z - info: ::1
+2018-03-13T04:18:09.475Z - info: ::1
+2018-03-13T04:18:11.306Z - info: auth_checker: req: [object Object]
+2018-03-13T04:18:11.335Z - info: auth_checker: req: [object Object]
+2018-03-13T04:18:11.403Z - info: ::1
+2018-03-13T04:18:11.429Z - info: ::1
+2018-03-13T04:18:11.444Z - info: auth_checker: req: [object Object]
+2018-03-13T04:18:11.538Z - info: ::1

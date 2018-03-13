@@ -38,11 +38,11 @@ passport.use('local-signup', localSignupStrategy);
 passport.use('local-login', localLoginStrategy);
 
 //TODO: remove thsi after development is done.
-app.all('*', function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "X-Requested-with");
-  next();
-});
+// app.all('*', function(req, res, next) {
+//   res.header("Access-Control-Allow-Origin", "*");
+//   res.header("Access-Control-Allow-Headers", "X-Requested-with");
+//   next();
+// });
 
 
 
