@@ -7215,3 +7215,644 @@ Mon 12 Mar 2018 21:15:53, news_fecher.py, event_name : get_news_text_from_source
 Mon 12 Mar 2018 21:15:58, connectionpool.pyStarting new HTTPS connection (1): www.foxsports.com
 Mon 12 Mar 2018 21:16:00, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 0feoyy9ne/i1nc5YuOMirw==
 
+Mon 12 Mar 2018 21:51:03, base_connection.pySocket Error: 54
+Mon 12 Mar 2018 21:51:03, connection.pyDisconnected from RabbitMQ at crane.rmq.cloudamqp.com:5672 (-1): error(54, 'Connection reset by peer')
+Mon 12 Mar 2018 21:51:03, blocking_connection.pyConnection close detected; result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED socket=None params=<URLParameters host=crane.rmq.cloudamqp.com port=5672 virtual_host=yhykbjgh ssl=False>>, reason_code=-1, reason_text="error(54, 'Connection reset by peer')")
+Tue 13 Mar 2018 10:20:24, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : Rb3qzSmR0/UrPnekOYgEEg==
+
+Tue 13 Mar 2018 10:20:30, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:20:31, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : ttRlvQnzd2fkusd7iwPo9w==
+
+Tue 13 Mar 2018 10:20:36, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:20:37, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : tYPmT31ywMm18U05tnsEZg==
+
+Tue 13 Mar 2018 10:20:42, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:20:43, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : sel8/VsbQXJ7WUgDTl79tA==
+
+Tue 13 Mar 2018 10:20:48, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:20:50, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : ypG43Zb/dqo1UjlNve//sA==
+
+Tue 13 Mar 2018 10:20:55, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:20:57, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : v7opYYQi3Sjw2GFyLgipeg==
+
+Tue 13 Mar 2018 10:21:02, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:21:04, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : MQZAH92R4EBXLCGtC4vSvA==
+
+Tue 13 Mar 2018 10:21:09, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:21:10, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : kxrRlofebwT/4tFvSacXcA==
+
+Tue 13 Mar 2018 10:21:15, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:21:16, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : KOsKHhxU0I/VUGvu9PCsdg==
+
+Tue 13 Mar 2018 10:21:21, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:21:25, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : dP62Qx8UUAA6S2RRt5ye7w==
+
+Tue 13 Mar 2018 10:21:30, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:21:31, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : u6eiXWKTn/w1jLMPsRd1gw==
+
+Tue 13 Mar 2018 10:21:36, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:21:38, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : Ch0fSlsEh8AOo8vbVyE7dA==
+
+Tue 13 Mar 2018 10:21:43, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:21:44, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : fqENe6r9UN2wGPTw0UoXgQ==
+
+Tue 13 Mar 2018 10:21:50, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:21:51, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : VOgyw/bAOgAbSCEI7Qo+yQ==
+
+Tue 13 Mar 2018 10:21:56, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:21:58, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : L9Hks8Gsx0NA8SUkUeRG+w==
+
+Tue 13 Mar 2018 10:22:03, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:22:04, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : ApG1jSMmkTYVv7hyD+3WIg==
+
+Tue 13 Mar 2018 10:22:09, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:22:11, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 1FxX5wmG0Eezx8ONMsdUmw==
+
+Tue 13 Mar 2018 10:22:16, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:22:17, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : tLDwjyWpwAYP4GmcIjm+6A==
+
+Tue 13 Mar 2018 10:22:22, connectionpool.pyStarting new HTTP connection (1): www.bbc.co.uk
+Tue 13 Mar 2018 10:22:23, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : eATcbdAOdsdI9KAUFxefsA==
+
+Tue 13 Mar 2018 10:22:28, connectionpool.pyStarting new HTTP connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:22:28, connectionpool.pyStarting new HTTPS connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:22:29, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : g3gsKPgPrW1yPAnAq41GkA==
+
+Tue 13 Mar 2018 10:22:34, connectionpool.pyStarting new HTTP connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:22:34, connectionpool.pyStarting new HTTPS connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:22:34, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : w5hXYVHmTy+KGh8imVY2KQ==
+
+Tue 13 Mar 2018 10:22:40, connectionpool.pyStarting new HTTP connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:22:40, connectionpool.pyStarting new HTTPS connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:22:40, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : gt/VqzKDctg9JNmqdNxiDg==
+
+Tue 13 Mar 2018 10:22:45, connectionpool.pyStarting new HTTP connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:22:45, connectionpool.pyStarting new HTTPS connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:22:46, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : CRvpNOfnuCqZbP0fo29m2g==
+
+Tue 13 Mar 2018 10:22:52, connectionpool.pyStarting new HTTP connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:22:52, connectionpool.pyStarting new HTTPS connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:22:52, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : lruJNenK2UXd8lKfxA1xhw==
+
+Tue 13 Mar 2018 10:22:58, connectionpool.pyStarting new HTTP connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:22:58, connectionpool.pyStarting new HTTPS connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:23:00, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : LSp41ap2nRnsLVUXPApz8A==
+
+Tue 13 Mar 2018 10:23:05, connectionpool.pyStarting new HTTP connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:23:05, connectionpool.pyStarting new HTTPS connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:23:06, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 2+N9zDA4pjOOILEjOX4i5w==
+
+Tue 13 Mar 2018 10:23:11, connectionpool.pyStarting new HTTP connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:23:11, connectionpool.pyStarting new HTTPS connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:23:12, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : kQ83GfjThlClUljYeO86Cg==
+
+Tue 13 Mar 2018 10:23:17, connectionpool.pyStarting new HTTP connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:23:17, connectionpool.pyStarting new HTTPS connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:23:18, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : YIxSWfT0XnOHqwaFjXxYXA==
+
+Tue 13 Mar 2018 10:23:23, connectionpool.pyStarting new HTTP connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:23:23, connectionpool.pyStarting new HTTPS connection (1): www.bloomberg.com
+Tue 13 Mar 2018 10:23:24, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : EXslqb7GttJrvEydQQCUzA==
+
+Tue 13 Mar 2018 10:23:29, connectionpool.pyStarting new HTTP connection (1): us.cnn.com
+Tue 13 Mar 2018 10:23:30, connectionpool.pyStarting new HTTPS connection (1): us.cnn.com
+Tue 13 Mar 2018 10:23:30, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : kxA4O89TSU3U4wn7MtXh+w==
+
+Tue 13 Mar 2018 10:23:35, connectionpool.pyStarting new HTTP connection (1): us.cnn.com
+Tue 13 Mar 2018 10:23:35, connectionpool.pyStarting new HTTPS connection (1): us.cnn.com
+Tue 13 Mar 2018 10:23:36, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : eIOGZIkSgL+GLrSjUQqZPg==
+
+Tue 13 Mar 2018 10:23:41, connectionpool.pyStarting new HTTP connection (1): us.cnn.com
+Tue 13 Mar 2018 10:23:41, connectionpool.pyStarting new HTTPS connection (1): us.cnn.com
+Tue 13 Mar 2018 10:23:41, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : ZqN/EYnz813BtJdJANo34A==
+
+Tue 13 Mar 2018 10:23:47, connectionpool.pyStarting new HTTP connection (1): us.cnn.com
+Tue 13 Mar 2018 10:23:47, connectionpool.pyStarting new HTTPS connection (1): us.cnn.com
+Tue 13 Mar 2018 10:23:47, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : CN7v/34o8tr/TezwLvy4FA==
+
+Tue 13 Mar 2018 10:23:53, connectionpool.pyStarting new HTTP connection (1): us.cnn.com
+Tue 13 Mar 2018 10:23:53, connectionpool.pyStarting new HTTPS connection (1): us.cnn.com
+Tue 13 Mar 2018 10:23:53, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : h6Gi8AzbQ5fbxrU84J0xYg==
+
+Tue 13 Mar 2018 10:23:58, connectionpool.pyStarting new HTTP connection (1): us.cnn.com
+Tue 13 Mar 2018 10:23:59, connectionpool.pyStarting new HTTPS connection (1): us.cnn.com
+Tue 13 Mar 2018 10:24:00, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : x/XeUVc/FmxnXzsVE1zVzQ==
+
+Tue 13 Mar 2018 10:24:05, connectionpool.pyStarting new HTTP connection (1): us.cnn.com
+Tue 13 Mar 2018 10:24:05, connectionpool.pyStarting new HTTPS connection (1): us.cnn.com
+Tue 13 Mar 2018 10:24:06, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : uyA81zZRvziWH4n44lGAUQ==
+
+Tue 13 Mar 2018 10:24:11, connectionpool.pyStarting new HTTP connection (1): us.cnn.com
+Tue 13 Mar 2018 10:24:11, connectionpool.pyStarting new HTTPS connection (1): us.cnn.com
+Tue 13 Mar 2018 10:24:11, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : /vSSz1nIoq/qNc2a/kIuLQ==
+
+Tue 13 Mar 2018 10:24:17, connectionpool.pyStarting new HTTP connection (1): us.cnn.com
+Tue 13 Mar 2018 10:24:17, connectionpool.pyStarting new HTTPS connection (1): us.cnn.com
+Tue 13 Mar 2018 10:24:17, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : ZtAqb+3dlY55qvZzL7ue+g==
+
+Tue 13 Mar 2018 10:24:23, connectionpool.pyStarting new HTTP connection (1): us.cnn.com
+Tue 13 Mar 2018 10:24:23, connectionpool.pyStarting new HTTPS connection (1): us.cnn.com
+Tue 13 Mar 2018 10:24:23, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : e+pM84GTFr3qov00GPchWA==
+
+Tue 13 Mar 2018 10:24:31, connectionpool.pyStarting new HTTP connection (1): ew.com
+Tue 13 Mar 2018 10:24:32, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : rB/15HeqN+9xaxvl0fO4SQ==
+
+Tue 13 Mar 2018 10:24:38, connectionpool.pyStarting new HTTP connection (1): ew.com
+Tue 13 Mar 2018 10:24:38, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : d/obF2jWiBmWXTU0lK8LcQ==
+
+Tue 13 Mar 2018 10:24:43, connectionpool.pyStarting new HTTP connection (1): ew.com
+Tue 13 Mar 2018 10:24:43, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 4H6wLNlW43u5V1pA/ED+hA==
+
+Tue 13 Mar 2018 10:24:48, connectionpool.pyStarting new HTTP connection (1): ew.com
+Tue 13 Mar 2018 10:24:48, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 6t8FJUFFZgBeuwBPakCgTg==
+
+Tue 13 Mar 2018 10:24:54, connectionpool.pyStarting new HTTP connection (1): ew.com
+Tue 13 Mar 2018 10:24:54, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : bBiXHK4oay+OWQCf8C66HA==
+
+Tue 13 Mar 2018 10:24:59, connectionpool.pyStarting new HTTP connection (1): ew.com
+Tue 13 Mar 2018 10:24:59, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : PNhblXpIMETiV0UceWF8Mw==
+
+Tue 13 Mar 2018 10:25:04, connectionpool.pyStarting new HTTP connection (1): ew.com
+Tue 13 Mar 2018 10:25:05, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : GnOUuXyq9Hcwq6ffMSa9CA==
+
+Tue 13 Mar 2018 10:25:10, connectionpool.pyStarting new HTTP connection (1): ew.com
+Tue 13 Mar 2018 10:25:10, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : nnnLHsNc98AqAOF+D3jr0w==
+
+Tue 13 Mar 2018 10:25:15, connectionpool.pyStarting new HTTP connection (1): ew.com
+Tue 13 Mar 2018 10:25:16, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 5wlSe0YzRDiEWHLjkhsjkg==
+
+Tue 13 Mar 2018 10:25:21, connectionpool.pyStarting new HTTP connection (1): ew.com
+Tue 13 Mar 2018 10:25:21, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : ii+ZWiXm/5FcS0R6ONLPyg==
+
+Tue 13 Mar 2018 10:25:26, connectionpool.pyStarting new HTTP connection (1): espn.go.com
+Tue 13 Mar 2018 10:25:27, connectionpool.pyStarting new HTTP connection (1): www.espn.com
+Tue 13 Mar 2018 10:25:27, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : dtVjvTzXFXjKwJS5i/9lqA==
+
+Tue 13 Mar 2018 10:25:32, connectionpool.pyStarting new HTTP connection (1): espn.go.com
+Tue 13 Mar 2018 10:25:32, connectionpool.pyStarting new HTTP connection (1): www.espn.com
+Tue 13 Mar 2018 10:25:33, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : NUeslb09tla6pjRi46AA7g==
+
+Tue 13 Mar 2018 10:25:38, connectionpool.pyStarting new HTTP connection (1): espn.go.com
+Tue 13 Mar 2018 10:25:38, connectionpool.pyStarting new HTTP connection (1): www.espn.com
+Tue 13 Mar 2018 10:25:39, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : OGvX9AFC1FxghwVuXopNWQ==
+
+Tue 13 Mar 2018 10:25:44, connectionpool.pyStarting new HTTP connection (1): espn.go.com
+Tue 13 Mar 2018 10:25:44, connectionpool.pyStarting new HTTP connection (1): www.espn.com
+Tue 13 Mar 2018 10:25:44, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : w8DTq5iZpefjuIEqo9zg4Q==
+
+Tue 13 Mar 2018 10:25:49, connectionpool.pyStarting new HTTP connection (1): espn.go.com
+Tue 13 Mar 2018 10:25:49, connectionpool.pyStarting new HTTP connection (1): www.espn.com
+Tue 13 Mar 2018 10:25:50, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : HMyhrMgXkMVxGrwsHvqg6w==
+
+Tue 13 Mar 2018 10:25:55, connectionpool.pyStarting new HTTP connection (1): espn.go.com
+Tue 13 Mar 2018 10:25:55, connectionpool.pyStarting new HTTP connection (1): www.espn.com
+Tue 13 Mar 2018 10:25:55, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : hmsqDwoBHrK9e6XZO2CFzA==
+
+Tue 13 Mar 2018 10:26:00, connectionpool.pyStarting new HTTP connection (1): www.espn.com
+Tue 13 Mar 2018 10:26:01, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : zNH/Qgklder0j7NDdw07LQ==
+
+Tue 13 Mar 2018 10:26:06, connectionpool.pyStarting new HTTP connection (1): www.ign.com
+Tue 13 Mar 2018 10:26:07, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : rq0k9x8pTQPts50LawTciA==
+
+Tue 13 Mar 2018 10:26:12, connectionpool.pyStarting new HTTP connection (1): www.ign.com
+Tue 13 Mar 2018 10:26:12, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 8yZftvhWEDKa/FuRLIgmQA==
+
+Tue 13 Mar 2018 10:26:17, connectionpool.pyStarting new HTTP connection (1): www.ign.com
+Tue 13 Mar 2018 10:26:18, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : /S/YbBq844fWdZZiHzb5/Q==
+
+Tue 13 Mar 2018 10:26:23, connectionpool.pyStarting new HTTP connection (1): www.ign.com
+Tue 13 Mar 2018 10:26:23, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 8w/MDlM5chhT172QUhtHeg==
+
+Tue 13 Mar 2018 10:26:28, connectionpool.pyStarting new HTTP connection (1): www.ign.com
+Tue 13 Mar 2018 10:26:29, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : ck3xqhRNMKl0YHWk71UL7Q==
+
+Tue 13 Mar 2018 10:26:34, connectionpool.pyStarting new HTTP connection (1): www.ign.com
+Tue 13 Mar 2018 10:26:35, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 92/ljtVdmDaRqKGKD1rXgQ==
+
+Tue 13 Mar 2018 10:26:41, connectionpool.pyStarting new HTTP connection (1): www.ign.com
+Tue 13 Mar 2018 10:26:41, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : tfJQ/RF3jZ4v5DrIXOB0Cw==
+
+Tue 13 Mar 2018 10:26:46, connectionpool.pyStarting new HTTP connection (1): www.ign.com
+Tue 13 Mar 2018 10:26:47, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : sk65tyuRrodkq0PvKtrjOA==
+
+Tue 13 Mar 2018 10:26:52, connectionpool.pyStarting new HTTP connection (1): www.ign.com
+Tue 13 Mar 2018 10:26:53, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : NP7ImQA6Fo81c90KkM1clQ==
+
+Tue 13 Mar 2018 10:26:58, connectionpool.pyStarting new HTTP connection (1): www.ign.com
+Tue 13 Mar 2018 10:26:58, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : gIcXGW346xPdC53CkgGvOQ==
+
+Tue 13 Mar 2018 10:27:03, connectionpool.pyStarting new HTTPS connection (1): techcrunch.com
+Tue 13 Mar 2018 10:27:04, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : Z8WYPJwdVHicM/q504OFeg==
+
+Tue 13 Mar 2018 10:27:12, connectionpool.pyStarting new HTTPS connection (1): www.nytimes.com
+Tue 13 Mar 2018 10:27:12, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : v8UEU7XD6FEpKh7tSaBV8Q==
+
+Tue 13 Mar 2018 10:27:18, connectionpool.pyStarting new HTTPS connection (1): www.nytimes.com
+Tue 13 Mar 2018 10:27:18, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : mkj51KBRKXJFvRZCyMqS+g==
+
+Tue 13 Mar 2018 10:27:23, connectionpool.pyStarting new HTTPS connection (1): www.nytimes.com
+Tue 13 Mar 2018 10:27:23, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : qmz7NmXlUdRBOQWvQm6Atg==
+
+Tue 13 Mar 2018 10:27:28, connectionpool.pyStarting new HTTPS connection (1): www.nytimes.com
+Tue 13 Mar 2018 10:27:29, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : xyhyc1yq+Dnc0h6MyzoEUQ==
+
+Tue 13 Mar 2018 10:27:34, connectionpool.pyStarting new HTTPS connection (1): www.nytimes.com
+Tue 13 Mar 2018 10:27:34, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : Q4H53qfEQk8eScjmSYn/sA==
+
+Tue 13 Mar 2018 10:27:39, connectionpool.pyStarting new HTTPS connection (1): www.nytimes.com
+Tue 13 Mar 2018 10:27:40, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : V4Mj/xjojozMKc5qxHmE5w==
+
+Tue 13 Mar 2018 10:27:45, connectionpool.pyStarting new HTTPS connection (1): www.wsj.com
+Tue 13 Mar 2018 10:27:46, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : oyUGd42duVOXlZpgHVvVlA==
+
+Tue 13 Mar 2018 10:27:51, connectionpool.pyStarting new HTTPS connection (1): www.wsj.com
+Tue 13 Mar 2018 10:27:52, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : v+t4364NW7W1YwNPdZ9d2Q==
+
+Tue 13 Mar 2018 10:27:58, connectionpool.pyStarting new HTTPS connection (1): blogs.wsj.com
+Tue 13 Mar 2018 10:28:00, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 5+fZxfcA3G7HN3ubSeuEKw==
+
+Tue 13 Mar 2018 10:28:05, connectionpool.pyStarting new HTTPS connection (1): www.wsj.com
+Tue 13 Mar 2018 10:28:06, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : jdNGm+NA61/Il8oY8zLrdg==
+
+Tue 13 Mar 2018 10:28:11, connectionpool.pyStarting new HTTPS connection (1): www.wsj.com
+Tue 13 Mar 2018 10:28:12, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : WkSVhju30sfKeUnxDELpqA==
+
+Tue 13 Mar 2018 10:28:18, connectionpool.pyStarting new HTTPS connection (1): www.wsj.com
+Tue 13 Mar 2018 10:28:18, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : eL9Z3ql+WS2DhglELPAa7A==
+
+Tue 13 Mar 2018 10:28:24, connectionpool.pyStarting new HTTPS connection (1): www.wsj.com
+Tue 13 Mar 2018 10:28:24, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : PRkDHUXb3B9KOaY+/sw8mA==
+
+Tue 13 Mar 2018 10:28:30, connectionpool.pyStarting new HTTPS connection (1): www.wsj.com
+Tue 13 Mar 2018 10:28:31, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : FiROv/U06X7amEePkOxEVg==
+
+Tue 13 Mar 2018 10:28:36, connectionpool.pyStarting new HTTPS connection (1): www.wsj.com
+Tue 13 Mar 2018 10:28:37, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : zJQE3YAVbsrX+5LGfzRaWQ==
+
+Tue 13 Mar 2018 10:28:42, connectionpool.pyStarting new HTTPS connection (1): www.washingtonpost.com
+Tue 13 Mar 2018 10:28:43, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : W3wbJfdRyM7TJvwBWCja9A==
+
+Tue 13 Mar 2018 10:28:48, connectionpool.pyStarting new HTTPS connection (1): www.washingtonpost.com
+Tue 13 Mar 2018 10:28:49, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : zPDzwuNkKOSDpXT8RFyMnw==
+
+Tue 13 Mar 2018 10:28:54, connectionpool.pyStarting new HTTPS connection (1): www.washingtonpost.com
+Tue 13 Mar 2018 10:28:55, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : vAgT1hVnb386ddwFs/hqng==
+
+Tue 13 Mar 2018 10:29:00, connectionpool.pyStarting new HTTPS connection (1): www.washingtonpost.com
+Tue 13 Mar 2018 10:29:00, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : oz1yoBeD41JxPABgPQsxQw==
+
+Tue 13 Mar 2018 10:29:05, connectionpool.pyStarting new HTTPS connection (1): www.washingtonpost.com
+Tue 13 Mar 2018 10:29:05, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 4LZs8nQAsrUag7cVT8zKRA==
+
+Tue 13 Mar 2018 10:29:11, connectionpool.pyStarting new HTTPS connection (1): www.washingtonpost.com
+Tue 13 Mar 2018 10:29:11, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : mFZhB2gzbMGyOmXEv4g7Jw==
+
+Tue 13 Mar 2018 10:29:16, connectionpool.pyStarting new HTTPS connection (1): www.washingtonpost.com
+Tue 13 Mar 2018 10:29:16, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : JdzY6lfk4HKMc+TYSWqRWw==
+
+Tue 13 Mar 2018 10:29:22, connectionpool.pyStarting new HTTPS connection (1): www.washingtonpost.com
+Tue 13 Mar 2018 10:29:22, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 4Orns7QGtjaHcpAxUVxuSA==
+
+Tue 13 Mar 2018 10:29:27, connectionpool.pyStarting new HTTPS connection (1): apnews.com
+Tue 13 Mar 2018 10:29:28, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 1jiDzUyObPx4Zfxshr3JdA==
+
+Tue 13 Mar 2018 10:29:33, connectionpool.pyStarting new HTTPS connection (1): apnews.com
+Tue 13 Mar 2018 10:29:34, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : DBkVgNa2ZmFtO3WqWa/biw==
+
+Tue 13 Mar 2018 10:29:39, connectionpool.pyStarting new HTTPS connection (1): apnews.com
+Tue 13 Mar 2018 10:29:40, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : HlIeeKxbNJG8HNiHaUuhUQ==
+
+Tue 13 Mar 2018 10:29:45, connectionpool.pyStarting new HTTPS connection (1): apnews.com
+Tue 13 Mar 2018 10:29:46, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 5d471OQWB1wQLjaq5Epd1w==
+
+Tue 13 Mar 2018 10:29:51, connectionpool.pyStarting new HTTPS connection (1): apnews.com
+Tue 13 Mar 2018 10:29:51, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : gebGv4qGZz8AioubxO3R4Q==
+
+Tue 13 Mar 2018 10:29:57, connectionpool.pyStarting new HTTPS connection (1): apnews.com
+Tue 13 Mar 2018 10:29:57, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : CofthWlgqyBK6tFCvtq3vA==
+
+Tue 13 Mar 2018 10:30:02, connectionpool.pyStarting new HTTPS connection (1): apnews.com
+Tue 13 Mar 2018 10:30:03, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : DHlYH3osgavFGakM+wB9qg==
+
+Tue 13 Mar 2018 10:30:08, connectionpool.pyStarting new HTTPS connection (1): apnews.com
+Tue 13 Mar 2018 10:30:09, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : tgyvoFznRNIEe4B4TNlPmA==
+
+Tue 13 Mar 2018 10:30:14, connectionpool.pyStarting new HTTPS connection (1): apnews.com
+Tue 13 Mar 2018 10:30:15, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : cOgPsVOvZFS/HgT0AqcaIw==
+
+Tue 13 Mar 2018 10:30:20, connectionpool.pyStarting new HTTP connection (1): time.com
+Tue 13 Mar 2018 10:30:20, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 5hrOqHMbRPxqHHh5b3Mg4Q==
+
+Tue 13 Mar 2018 10:30:26, connectionpool.pyStarting new HTTP connection (1): time.com
+Tue 13 Mar 2018 10:30:26, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : b+Wa8k8ztQuI/bTyz68+wQ==
+
+Tue 13 Mar 2018 10:30:31, connectionpool.pyStarting new HTTP connection (1): time.com
+Tue 13 Mar 2018 10:30:31, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : OtHZLVLpnUSElwkFo7euNA==
+
+Tue 13 Mar 2018 10:30:37, connectionpool.pyStarting new HTTP connection (1): time.com
+Tue 13 Mar 2018 10:30:37, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 7eK7VIIokSuylXVJFerVEQ==
+
+Tue 13 Mar 2018 10:30:42, connectionpool.pyStarting new HTTP connection (1): time.com
+Tue 13 Mar 2018 10:30:43, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : mguW+lfQHjMlYFvMrvHaxA==
+
+Tue 13 Mar 2018 10:30:48, connectionpool.pyStarting new HTTP connection (1): time.com
+Tue 13 Mar 2018 10:30:49, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : g4jfbYUBww04OtrZlldhVQ==
+
+Tue 13 Mar 2018 10:30:54, connectionpool.pyStarting new HTTP connection (1): time.com
+Tue 13 Mar 2018 10:30:55, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : PCtVbkYtw1OypPX6NAkq9w==
+
+Tue 13 Mar 2018 10:31:00, connectionpool.pyStarting new HTTPS connection (1): www.cnbc.com
+Tue 13 Mar 2018 10:31:02, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 15aIz2vzTBzIdofDJrVO0A==
+
+Tue 13 Mar 2018 10:31:08, connectionpool.pyStarting new HTTPS connection (1): www.cnbc.com
+Tue 13 Mar 2018 10:31:08, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 6WKAmqHsWcgf6XBM+TQo9w==
+
+Tue 13 Mar 2018 10:31:13, connectionpool.pyStarting new HTTPS connection (1): www.cnbc.com
+Tue 13 Mar 2018 10:31:14, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : Yq/OqRDDV5PELMcY/UDkLg==
+
+Tue 13 Mar 2018 10:31:19, connectionpool.pyStarting new HTTPS connection (1): www.cnbc.com
+Tue 13 Mar 2018 10:31:23, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : msU0U4wco1tigklTL2SZhw==
+
+Tue 13 Mar 2018 10:31:28, connectionpool.pyStarting new HTTPS connection (1): www.cnbc.com
+Tue 13 Mar 2018 10:31:30, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : JHX00MIM3n3WY5QOe9Vdbw==
+
+Tue 13 Mar 2018 10:31:35, connectionpool.pyStarting new HTTPS connection (1): www.cnbc.com
+Tue 13 Mar 2018 10:31:37, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : a3SLBTlOkRaVAvG2/3eJ1w==
+
+Tue 13 Mar 2018 10:31:43, connectionpool.pyStarting new HTTPS connection (1): www.cnbc.com
+Tue 13 Mar 2018 10:31:43, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : l6fEOwOkkjs02rxgbviZQA==
+
+Tue 13 Mar 2018 10:31:49, connectionpool.pyStarting new HTTPS connection (1): www.cnbc.com
+Tue 13 Mar 2018 10:31:49, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : SZPJ/YQyBQeiYOJeEA9Vtw==
+
+Tue 13 Mar 2018 10:31:54, connectionpool.pyStarting new HTTPS connection (1): www.cnbc.com
+Tue 13 Mar 2018 10:31:55, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : xH0oKgsUW2AK6LFEoZ58mQ==
+
+Tue 13 Mar 2018 10:32:00, connectionpool.pyStarting new HTTPS connection (1): www.cnbc.com
+Tue 13 Mar 2018 10:32:01, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 3JgOoSPBIhMJwjARb/eO6A==
+
+Tue 13 Mar 2018 10:32:06, connectionpool.pyStarting new HTTPS connection (1): www.focus.de
+Tue 13 Mar 2018 10:32:07, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : DSNh8Jwz8X3x06Ibq5X9Lw==
+
+Tue 13 Mar 2018 10:32:12, connectionpool.pyStarting new HTTPS connection (1): www.focus.de
+Tue 13 Mar 2018 10:32:14, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : t8h18ipnTNf92B7Go2tcNQ==
+
+Tue 13 Mar 2018 10:32:19, connectionpool.pyStarting new HTTPS connection (1): www.focus.de
+Tue 13 Mar 2018 10:32:20, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : dCsB94b/YS+A0s0zvQI/cg==
+
+Tue 13 Mar 2018 10:32:26, connectionpool.pyStarting new HTTPS connection (1): www.focus.de
+Tue 13 Mar 2018 10:32:27, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : FpUDl/sTvVCI4BUys+JZ0g==
+
+Tue 13 Mar 2018 10:32:32, connectionpool.pyStarting new HTTPS connection (1): www.focus.de
+Tue 13 Mar 2018 10:32:34, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : sYOJ1HedgO85U3wWjJVtOw==
+
+Tue 13 Mar 2018 10:32:39, connectionpool.pyStarting new HTTPS connection (1): www.focus.de
+Tue 13 Mar 2018 10:32:40, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : xRvzv71jVRt1Saqkbg5Ikw==
+
+Tue 13 Mar 2018 10:32:46, connectionpool.pyStarting new HTTPS connection (1): www.focus.de
+Tue 13 Mar 2018 10:32:47, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 4UasEStrWBk+n9GB1w5LaA==
+
+Tue 13 Mar 2018 10:32:52, connectionpool.pyStarting new HTTP connection (1): www.chip.de
+Tue 13 Mar 2018 10:32:58, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : wnsCajpDHHjNYCPhnElSjg==
+
+Tue 13 Mar 2018 10:33:03, connectionpool.pyStarting new HTTPS connection (1): www.focus.de
+Tue 13 Mar 2018 10:33:04, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : R1GoXsvLu9f/swOAEXSa5g==
+
+Tue 13 Mar 2018 10:33:09, connectionpool.pyStarting new HTTPS connection (1): www.focus.de
+Tue 13 Mar 2018 10:33:10, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : NoqCirNCFeJQC+OTniSiTw==
+
+Tue 13 Mar 2018 10:33:15, connectionpool.pyStarting new HTTP connection (1): abcnews.go.com
+Tue 13 Mar 2018 10:33:15, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : bGHmr8Tdvn0Ux7EtEFBTQA==
+
+Tue 13 Mar 2018 10:33:20, connectionpool.pyStarting new HTTP connection (1): www.chicagotribune.com
+Tue 13 Mar 2018 10:33:21, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : MEDA2PRcITn3momiIDGfaQ==
+
+Tue 13 Mar 2018 10:33:26, connectionpool.pyStarting new HTTPS connection (1): www.cnn.com
+Tue 13 Mar 2018 10:33:26, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : CnVgMVsHDQGUKmGDOCAQ3g==
+
+Tue 13 Mar 2018 10:33:34, connectionpool.pyStarting new HTTPS connection (1): www.washingtonpost.com
+Tue 13 Mar 2018 10:33:34, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : xXZ9TkMD7yRZNKC0NhMAmw==
+
+Tue 13 Mar 2018 10:33:39, connectionpool.pyStarting new HTTPS connection (1): www.washingtonpost.com
+Tue 13 Mar 2018 10:33:40, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : qra9dW2Ecy7ZSM6IBf3kQw==
+
+Tue 13 Mar 2018 10:33:45, connectionpool.pyStarting new HTTPS connection (1): www.washingtonpost.com
+Tue 13 Mar 2018 10:33:45, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : pcVz2j/xm2I7AVMTJtnziA==
+
+Tue 13 Mar 2018 10:33:51, connectionpool.pyStarting new HTTPS connection (1): nypost.com
+Tue 13 Mar 2018 10:33:51, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : huGKw/rLiYc7+TSuwVJlnA==
+
+Tue 13 Mar 2018 10:33:56, connectionpool.pyStarting new HTTP connection (1): fortune.com
+Tue 13 Mar 2018 10:33:57, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 9u+kShBmbZ1Xg8wd8gujtQ==
+
+Tue 13 Mar 2018 10:34:02, connectionpool.pyStarting new HTTP connection (1): fortune.com
+Tue 13 Mar 2018 10:34:03, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : Speqea/q1SiGXFN1e+KtQg==
+
+Tue 13 Mar 2018 10:34:08, connectionpool.pyStarting new HTTP connection (1): fortune.com
+Tue 13 Mar 2018 10:34:09, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 01n3rmm3cxKIC4GhdUsOUg==
+
+Tue 13 Mar 2018 10:34:15, connectionpool.pyStarting new HTTP connection (1): fortune.com
+Tue 13 Mar 2018 10:34:15, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : BoJMA7eSD4HJ4I2vpoU3HA==
+
+Tue 13 Mar 2018 10:34:20, connectionpool.pyStarting new HTTP connection (1): fortune.com
+Tue 13 Mar 2018 10:34:21, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : BajEb6Lk5IP21JTGVFp2GA==
+
+Tue 13 Mar 2018 10:34:26, connectionpool.pyStarting new HTTP connection (1): fortune.com
+Tue 13 Mar 2018 10:34:27, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : hl+CSp+Gxec36sHqfK3YHg==
+
+Tue 13 Mar 2018 10:34:32, connectionpool.pyStarting new HTTP connection (1): fortune.com
+Tue 13 Mar 2018 10:34:33, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 5vMMDUmUUVbvcouS3YzyBQ==
+
+Tue 13 Mar 2018 10:34:38, connectionpool.pyStarting new HTTP connection (1): fortune.com
+Tue 13 Mar 2018 10:34:38, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : GZOkfjXok4OOkyO7e3r6IQ==
+
+Tue 13 Mar 2018 10:34:44, connectionpool.pyStarting new HTTP connection (1): fortune.com
+Tue 13 Mar 2018 10:34:44, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : IWvWKY+kCIKbDA0UlUzz/A==
+
+Tue 13 Mar 2018 10:34:49, connectionpool.pyStarting new HTTP connection (1): talksport.com
+Tue 13 Mar 2018 10:34:50, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : SxPCulYHazvmDUU4sFdt/g==
+
+Tue 13 Mar 2018 10:34:55, connectionpool.pyStarting new HTTP connection (1): talksport.com
+Tue 13 Mar 2018 10:34:56, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : woNkb7i8GinZFT/YGiq06A==
+
+Tue 13 Mar 2018 10:35:01, connectionpool.pyStarting new HTTP connection (1): talksport.com
+Tue 13 Mar 2018 10:35:02, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : y9LoUNog8u8z6b2MHEMSng==
+
+Tue 13 Mar 2018 10:35:07, connectionpool.pyStarting new HTTP connection (1): talksport.com
+Tue 13 Mar 2018 10:35:08, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : PwrNmzTrv7H6f69SuH5IkA==
+
+Tue 13 Mar 2018 10:35:14, connectionpool.pyStarting new HTTP connection (1): talksport.com
+Tue 13 Mar 2018 10:35:14, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : w7Br+ZBrtP5ue7SzeWJ9+Q==
+
+Tue 13 Mar 2018 10:35:19, connectionpool.pyStarting new HTTP connection (1): talksport.com
+Tue 13 Mar 2018 10:35:20, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : U1DGlCE61ARqBshNhKLDaw==
+
+Tue 13 Mar 2018 10:35:25, connectionpool.pyStarting new HTTP connection (1): talksport.com
+Tue 13 Mar 2018 10:35:26, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 9LgG+GzJoPQnmDlYsd4Z4g==
+
+Tue 13 Mar 2018 10:35:31, connectionpool.pyStarting new HTTP connection (1): talksport.com
+Tue 13 Mar 2018 10:35:32, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 7ce88aUOA1fPyCsk+pI3IQ==
+
+Tue 13 Mar 2018 10:35:37, connectionpool.pyStarting new HTTP connection (1): talksport.com
+Tue 13 Mar 2018 10:35:38, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : EnDGZIhzwljcc+owJmdLiQ==
+
+Tue 13 Mar 2018 10:35:43, connectionpool.pyStarting new HTTP connection (1): www.mtv.com
+Tue 13 Mar 2018 10:35:43, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : DHmyxmf2bLytyx7WRW5KdQ==
+
+Tue 13 Mar 2018 10:35:49, connectionpool.pyStarting new HTTPS connection (1): www.foxsports.com
+Tue 13 Mar 2018 10:35:49, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : iC6iy/7JowvhPrRBe/ILPQ==
+
+Tue 13 Mar 2018 10:35:55, connectionpool.pyStarting new HTTPS connection (1): www.foxsports.com
+Tue 13 Mar 2018 10:35:55, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 1Gm1gH3TVt1HwKYG6oQ/sQ==
+
+Tue 13 Mar 2018 10:36:01, connectionpool.pyStarting new HTTPS connection (1): www.foxsports.com
+Tue 13 Mar 2018 10:36:01, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : ZYw+wEa3gm6a3WU+jMSR6Q==
+
+Tue 13 Mar 2018 10:36:07, connectionpool.pyStarting new HTTPS connection (1): www.usatoday.com
+Tue 13 Mar 2018 10:36:07, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : kplTEPc3Etajp825n46HOA==
+
+Tue 13 Mar 2018 10:36:13, connectionpool.pyStarting new HTTPS connection (1): www.usatoday.com
+Tue 13 Mar 2018 10:36:13, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : L2CJ5dIPPLqGzEvBoCnPwQ==
+
+Tue 13 Mar 2018 10:36:18, connectionpool.pyStarting new HTTPS connection (1): www.usatoday.com
+Tue 13 Mar 2018 10:36:19, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : cITln7J6W+8dyKfekOu1HQ==
+
+Tue 13 Mar 2018 10:36:24, connectionpool.pyStarting new HTTPS connection (1): www.usatoday.com
+Tue 13 Mar 2018 10:36:24, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : TkgStuLGLF3KoU4CBHgwnQ==
+
+Tue 13 Mar 2018 10:36:30, connectionpool.pyStarting new HTTPS connection (1): www.usatoday.com
+Tue 13 Mar 2018 10:36:30, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : dnbmSakUBOMK4jsTx5O0fA==
+
+Tue 13 Mar 2018 10:36:35, connectionpool.pyStarting new HTTPS connection (1): www.usatoday.com
+Tue 13 Mar 2018 10:36:36, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : DhFB55nFQWexw7/Xj2bR7g==
+
+Tue 13 Mar 2018 10:36:41, connectionpool.pyStarting new HTTPS connection (1): www.usatoday.com
+Tue 13 Mar 2018 10:36:42, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 6tL5JDHMIovMeLHg6XXo2w==
+
+Tue 13 Mar 2018 10:36:47, connectionpool.pyStarting new HTTPS connection (1): www.usatoday.com
+Tue 13 Mar 2018 10:36:47, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : GnQs5kpYqx2FalDVfjKsFw==
+
+Tue 13 Mar 2018 10:36:52, connectionpool.pyStarting new HTTPS connection (1): www.usatoday.com
+Tue 13 Mar 2018 10:36:53, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : IKnqLpMbruJqWNPq2RDueA==
+
+Tue 13 Mar 2018 10:36:58, connectionpool.pyStarting new HTTPS connection (1): www.usatoday.com
+Tue 13 Mar 2018 10:36:58, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : KrkPwS+cY0qfH+25FCHWeA==
+
+Tue 13 Mar 2018 10:37:04, connectionpool.pyStarting new HTTPS connection (1): www.recode.net
+Tue 13 Mar 2018 10:37:05, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : l92SiMuEaLAjtHZERQjwLQ==
+
+Tue 13 Mar 2018 10:37:12, connectionpool.pyStarting new HTTPS connection (1): www.polygon.com
+Tue 13 Mar 2018 10:37:13, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : wleDXjL0DFU6Ks0wkWhegg==
+
+Tue 13 Mar 2018 10:37:18, connectionpool.pyStarting new HTTPS connection (1): www.polygon.com
+Tue 13 Mar 2018 10:37:19, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : XgQH8LbuH7i1TlPFaaB6Zg==
+
+Tue 13 Mar 2018 10:37:24, connectionpool.pyStarting new HTTPS connection (1): www.polygon.com
+Tue 13 Mar 2018 10:37:24, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : qyvjbcCZHGTu5gFjoAoTTw==
+
+Tue 13 Mar 2018 10:37:29, connectionpool.pyStarting new HTTPS connection (1): www.polygon.com
+Tue 13 Mar 2018 10:37:30, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : VhPiAEhog5OWcC5v4RZMNg==
+
+Tue 13 Mar 2018 10:37:35, connectionpool.pyStarting new HTTPS connection (1): www.polygon.com
+Tue 13 Mar 2018 10:37:35, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : qPZLUl9CZlMtmLeQb2X5Jw==
+
+Tue 13 Mar 2018 10:37:40, connectionpool.pyStarting new HTTPS connection (1): www.polygon.com
+Tue 13 Mar 2018 10:37:41, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : vmTK88BLc2JjtjZKqhhb2Q==
+
+Tue 13 Mar 2018 10:37:46, connectionpool.pyStarting new HTTPS connection (1): www.polygon.com
+Tue 13 Mar 2018 10:37:46, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : wUZPsv5qXY92B5OaoNDxiQ==
+
+Tue 13 Mar 2018 10:37:51, connectionpool.pyStarting new HTTPS connection (1): www.polygon.com
+Tue 13 Mar 2018 10:37:52, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : yoJKWu/AVR87j9rFDxpnsw==
+
+Tue 13 Mar 2018 10:37:57, connectionpool.pyStarting new HTTPS connection (1): www.polygon.com
+Tue 13 Mar 2018 10:37:57, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : F8XPLUOZu4Pe2nA5C1edGw==
+
+Tue 13 Mar 2018 10:38:03, connectionpool.pyStarting new HTTPS connection (1): www.engadget.com
+Tue 13 Mar 2018 10:38:04, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : IMqjrdIYfUOR/VZL93i4wA==
+
+Tue 13 Mar 2018 10:38:09, connectionpool.pyStarting new HTTPS connection (1): www.engadget.com
+Tue 13 Mar 2018 10:38:10, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : jAl6ZRbizjIfVKGjfHpXfQ==
+
+Tue 13 Mar 2018 10:38:15, connectionpool.pyStarting new HTTPS connection (1): www.engadget.com
+Tue 13 Mar 2018 10:38:15, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : TInTUqduF4LYMZ7/5Kin8Q==
+
+Tue 13 Mar 2018 10:38:21, connectionpool.pyStarting new HTTPS connection (1): www.engadget.com
+Tue 13 Mar 2018 10:38:21, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : +COJTt3Q2UThiOQOAEs/IA==
+
+Tue 13 Mar 2018 10:38:27, connectionpool.pyStarting new HTTPS connection (1): www.engadget.com
+Tue 13 Mar 2018 10:38:27, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : xQI8jBCuMNAMy2CeEIUa1Q==
+
+Tue 13 Mar 2018 10:38:33, connectionpool.pyStarting new HTTPS connection (1): www.techradar.com
+Tue 13 Mar 2018 10:38:34, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : GjWU9HPGy7E8h+Tc3pYjHA==
+
+Tue 13 Mar 2018 10:38:39, connectionpool.pyStarting new HTTPS connection (1): www.techradar.com
+Tue 13 Mar 2018 10:38:40, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : vrCGOvVPzsqWU8m/GJNRkw==
+
+Tue 13 Mar 2018 10:38:45, connectionpool.pyStarting new HTTPS connection (1): www.techradar.com
+Tue 13 Mar 2018 10:38:46, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : jrUQWEt8WiOQNJAmuw/gIw==
+
+Tue 13 Mar 2018 10:38:51, connectionpool.pyStarting new HTTPS connection (1): www.techradar.com
+Tue 13 Mar 2018 10:38:52, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 39yjtS71FTAwZ8owrv5Ljg==
+
+Tue 13 Mar 2018 10:38:58, connectionpool.pyStarting new HTTPS connection (1): www.newscientist.com
+Tue 13 Mar 2018 10:38:58, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : QHGLd7uWov78yde0QPIrmA==
+
+Tue 13 Mar 2018 10:39:04, connectionpool.pyStarting new HTTPS connection (1): www.newscientist.com
+Tue 13 Mar 2018 10:39:05, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : //gLra7CvVE9FNJ17gzhiw==
+
+Tue 13 Mar 2018 10:39:10, connectionpool.pyStarting new HTTPS connection (1): www.newscientist.com
+Tue 13 Mar 2018 10:39:11, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : v565SSxAxjYkebVLvAg/QQ==
+
+Tue 13 Mar 2018 10:39:16, connectionpool.pyStarting new HTTPS connection (1): www.newscientist.com
+Tue 13 Mar 2018 10:39:17, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : JJ28x/sReqehh1yhnP75dQ==
+
+Tue 13 Mar 2018 10:39:22, connectionpool.pyStarting new HTTPS connection (1): www.newscientist.com
+Tue 13 Mar 2018 10:39:23, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : gowr6+vQT39z2uPeljM80g==
+
+Tue 13 Mar 2018 10:39:28, connectionpool.pyStarting new HTTPS connection (1): www.newscientist.com
+Tue 13 Mar 2018 10:39:29, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 1J24uEaQhuXLfvA1IlHsdw==
+
+Tue 13 Mar 2018 10:39:34, connectionpool.pyStarting new HTTPS connection (1): www.newscientist.com
+Tue 13 Mar 2018 10:39:35, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : TDulM0uEYcK/Y1tIIX4CKw==
+
+Tue 13 Mar 2018 10:39:40, connectionpool.pyStarting new HTTP connection (1): www.economist.com
+Tue 13 Mar 2018 10:39:40, connectionpool.pyStarting new HTTPS connection (1): www.economist.com
+Tue 13 Mar 2018 10:39:41, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : OHMgmUpbX1C0IxCXbdzV7Q==
+
+Tue 13 Mar 2018 10:39:46, connectionpool.pyStarting new HTTP connection (1): www.economist.com
+Tue 13 Mar 2018 10:39:46, connectionpool.pyStarting new HTTPS connection (1): www.economist.com
+Tue 13 Mar 2018 10:39:53, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : aNxE21XERIR+9tRML7PZkA==
+
+Tue 13 Mar 2018 10:39:59, connectionpool.pyStarting new HTTP connection (1): www.economist.com
+Tue 13 Mar 2018 10:39:59, connectionpool.pyStarting new HTTPS connection (1): www.economist.com
+Tue 13 Mar 2018 10:39:59, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : BnmLIKU3W4U/vk2Ei1gbEw==
+
+Tue 13 Mar 2018 10:40:04, connectionpool.pyStarting new HTTP connection (1): www.economist.com
+Tue 13 Mar 2018 10:40:04, connectionpool.pyStarting new HTTPS connection (1): www.economist.com
+Tue 13 Mar 2018 10:40:05, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : XMcdjqOaRCQPcabLsD6kFA==
+
+Tue 13 Mar 2018 10:40:10, connectionpool.pyStarting new HTTP connection (1): www.theladbible.com
+Tue 13 Mar 2018 10:40:10, connectionpool.pyStarting new HTTP connection (1): www.ladbible.com
+Tue 13 Mar 2018 10:40:11, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : dkmFWh+MDEG7ZkbzucQmdQ==
+
+Tue 13 Mar 2018 10:40:16, connectionpool.pyStarting new HTTP connection (1): www.theladbible.com
+Tue 13 Mar 2018 10:40:17, connectionpool.pyStarting new HTTP connection (1): www.ladbible.com
+Tue 13 Mar 2018 10:40:17, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : hHhUlimoFYfaaCweX8mvjg==
+
+Tue 13 Mar 2018 10:40:23, connectionpool.pyStarting new HTTP connection (1): www.theladbible.com
+Tue 13 Mar 2018 10:40:23, connectionpool.pyStarting new HTTP connection (1): www.ladbible.com
+Tue 13 Mar 2018 10:40:23, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 6/NqhwiX4TDTTAIFt/Qulg==
+
+Tue 13 Mar 2018 10:40:28, connectionpool.pyStarting new HTTP connection (1): www.theladbible.com
+Tue 13 Mar 2018 10:40:28, connectionpool.pyStarting new HTTP connection (1): www.ladbible.com
+Tue 13 Mar 2018 10:40:29, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : lDT2S5dFi1RInfJJHWN1Og==
+
+Tue 13 Mar 2018 10:40:34, connectionpool.pyStarting new HTTP connection (1): www.theladbible.com
+Tue 13 Mar 2018 10:40:34, connectionpool.pyStarting new HTTP connection (1): www.ladbible.com
+Tue 13 Mar 2018 10:40:34, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 9HYq4lhsVbbxfisfxmBUqg==
+
+Tue 13 Mar 2018 10:40:39, connectionpool.pyStarting new HTTP connection (1): www.theladbible.com
+Tue 13 Mar 2018 10:40:39, connectionpool.pyStarting new HTTP connection (1): www.ladbible.com
+Tue 13 Mar 2018 10:40:40, news_fecher.py, event_name : get_news_text_from_source, queue_name : tap-news-scrape-news-task-queue, news_id : 8iJiHWs2OKkhbMM9TlHTww==
+

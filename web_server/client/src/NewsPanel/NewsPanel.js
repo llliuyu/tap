@@ -1,15 +1,21 @@
 import './NewsPanel.css';
 import Auth from '../Auth/Auth';
 import React from 'react';
+import StackGrid, { transitions } from "react-stack-grid";
 import NewsCard from '../NewsCard/NewsCard';
+import NewsCardInGrid from '../NewsCard/NewsCardInGrid';
 import _ from 'lodash';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import Search from 'material-ui/svg-icons/action/search';
 import GoTop from 'material-ui/svg-icons/editor/publish';
+import RowView from 'material-ui/svg-icons/action/view-agenda';
+import GridView from 'material-ui/svg-icons/action/view-module';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
 import SearchForm from './SearchForm';
+
+const { scaleDown } = transitions;
 
 class NewsPanel extends React.Component {
   constructor(props) {
@@ -20,7 +26,8 @@ class NewsPanel extends React.Component {
                     loadedAll:false,
                     loading: false,
                     open: false, 
-                    keyword:""};
+                    keyword:"",
+                    grid: false};
     this.handleScroll = this.handleScroll.bind(this);
     // console.log('1');
   }
@@ -30,7 +37,7 @@ class NewsPanel extends React.Component {
   componentDidMount() {
     //console.log('5');
     this.loadMoreNews();
-    this.loadMoreNews = _.debounce(this.loadMoreNews, 500);
+    this.loadMoreNews = _.debounce(this.loadMoreNews, 100);
     this.searchNews = _.debounce(this.searchNews, 500);
     window.addEventListener('scroll', this.handleScroll);
   }
@@ -167,13 +174,59 @@ class NewsPanel extends React.Component {
     }
   }
 
+  renderNewsInGrid = () => {
+    const news_list = this.state.news.map((news, i) => {
+      return(
+        <a className='list-group-item' href="#" key = {i} >
+          <NewsCardInGrid news={news} />
+        </a>
+      );
+    });
+    if(this.state.loading && !this.state.loadedAll) {
+      return(
+        <div className="container-fluid">
+          <div className='list-group'>
+          <StackGrid
+            columnWidth={400}
+            gutterWidth={50}
+            duration={20}
+          >
+            {news_list}
+          </StackGrid>
+            <div className="progress">
+                <div className="indeterminate"></div>
+            </div>
+          </div>
+        </div>
+      );
+    }else{
+      return(
+        <div className="container-fluid">
+          <div className='list-group'>
+          <StackGrid
+            columnWidth={400}
+            gutterWidth={50}
+            duration={20}
+          >
+            {news_list}
+          </StackGrid>
+          </div>
+        </div>
+      );
+    }
+  }
+
   openDialog = () => {
 		this.setState({open: true});
 	}
 
   handleClose = () => {
 		this.setState({open: false});
-	};
+  };
+  
+  gridSwitch = () => {
+    this.setState({grid: !this.state.grid});
+  }
 
   render() {
     //console.log('3');
@@ -190,6 +243,18 @@ class NewsPanel extends React.Component {
                 <FloatingActionButton className="search" mini={true}>
                   <Search onClick={this.openDialog}/>
                 </FloatingActionButton>
+                {
+                  this.state.grid ? (
+                    <FloatingActionButton className="rowview" mini={true}>
+                      <RowView onClick = {this.gridSwitch}/>
+                    </FloatingActionButton>
+                  ) : (
+                    <FloatingActionButton className="gridview" mini={true}>
+                      <GridView onClick = {this.gridSwitch}/>
+                    </FloatingActionButton>
+                  )
+                }
+                
                 <Dialog
 									modal={false}
 									open={this.state.open}
@@ -202,7 +267,9 @@ class NewsPanel extends React.Component {
               </div>
             </MuiThemeProvider>
           </div>
-          {this.renderNews()}
+          {
+            this.state.grid ? this.renderNewsInGrid() : this.renderNews()
+          }
         </div>
       );
     } else {

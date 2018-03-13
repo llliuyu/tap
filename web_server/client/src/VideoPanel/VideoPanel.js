@@ -53,6 +53,7 @@ class VideoPanel extends React.Component {
         fetch(request)
           .then((res) => res.json())
           .then((term) => {
+            console.log(term);
             this.setState({
                 term: term
             }, ()=>{

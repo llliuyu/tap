@@ -14,7 +14,6 @@ class Auth {
    * Check if a user is authenticated.
    */
   static isUserAuthenticated() {
-    console.log('auth');
     return localStorage.getItem('token') !== null;
   }
 

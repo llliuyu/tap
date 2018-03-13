@@ -35,7 +35,6 @@ class SearchBar extends Component {
                       onChange={
                           (event) => {
                               // event.persist(); //to avoid event be nullified
-                              console.log(event.target.value);
                               this.setState({ term: event.target.value });
                           }
                       }
