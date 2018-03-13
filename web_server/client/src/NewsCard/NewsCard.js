@@ -23,6 +23,7 @@ class NewsCard extends React.Component{
 }
 
     render(){
+        console.log("card");
         return(
             <div>
                 <div className="card horizontal hoverable small row hide-on-small-only" 
