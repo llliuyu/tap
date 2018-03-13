@@ -4,7 +4,6 @@ const config = require('../config/config.json');
 const logging = require('../logging/logging');
 module.exports = (req, res, next) => {
   console.log('auth_checker: req: ' + req.headers);
-  logging.info('auth_checker: req: ' + req.headers);
   if (!req.headers.authorization) {
     return res.status(401).end();
   }
