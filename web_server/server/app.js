@@ -4,6 +4,7 @@ var cors = require('cors');
 var express = require('express');
 var passport = require('passport');
 var path = require('path');
+var favicon = require('serve-favicon')
 
 var auth = require('./routes/auth');
 var index = require('./routes/index');
@@ -24,11 +25,12 @@ var app = express();
 
 
 require('./models/main.js').connect(config.mongoDbUri);
-
+console.log(__dirname);
 // view engine setup
 app.set('views', path.join(__dirname, '../client/build/'));
 app.set('view engine', 'jade');
 app.use('/static', express.static(path.join(__dirname, '../client/build/static/')));
+app.use(favicon(path.join(__dirname, '../client/public/', 'favicon.ico')))
 
 // load passport strategies
 app.use(passport.initialize());
