@@ -32,7 +32,7 @@ class NewsCardInGrid extends React.Component{
                 </div>
                 <div className="card-stacked col l6 m6">
                   <div className="card-content textfill col l12 m12">
-                      <h6 className="black-text block-with-text">{this.props.news.title}</h6>
+                      <h6 className="black-text block-with-text bold">{this.props.news.title}</h6>
                       <p className="grey-text text-darken-3 block-with-text">{this.props.news.description}</p>
                   </div>
                   <div className="card-action col l12 m12 cards">

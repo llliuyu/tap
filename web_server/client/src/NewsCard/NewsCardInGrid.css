@@ -1,9 +1,11 @@
 .textfill{
   overflow: hidden;
 }
-
+.textfill h6{
+  font-size: 18px;
+}
 .textfill p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* styles for '...' */
