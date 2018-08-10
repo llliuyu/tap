@@ -17,7 +17,7 @@ class NewsCard extends React.Component{
             headers: {
                 'Authorization': 'bearer ' + Auth.getToken(),
             },
-            cache: false});
+            cache: "no-cache"});
         
             fetch(request);
 }
